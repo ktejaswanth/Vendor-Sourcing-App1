@@ -77,7 +77,7 @@ function VendorDashboard() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get('https://vendor-sourcing-app.onrender.com//api/products/all');
+      const res = await axios.get('https://vendor-sourcing-app.onrender.com/api/products/all');
       setProducts(res.data);
     } catch (err) {
       console.error('Product fetch error:', err);
