@@ -1,0 +1,48 @@
+.vendor-dashboard {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.vendor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vendor-nav button {
+  margin-left: 10px;
+}
+
+.product-card, .order-card {
+  background: #f4f4f4;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+  top: 20%;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.order-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

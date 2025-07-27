@@ -1,0 +1,73 @@
+.farmer-dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f9f5;
+  min-height: 100vh;
+}
+
+.farmer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.farmer-nav button {
+  margin-left: 10px;
+  background: white;
+  color: #2e7d32;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.farmer-nav button:hover {
+  background-color: #c8e6c9;
+}
+
+.form-section {
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-heading {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+}
+
+.products-section {
+  margin-top: 10px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-left: 4px solid #4caf50;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+.orders-section {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.order-card {
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
